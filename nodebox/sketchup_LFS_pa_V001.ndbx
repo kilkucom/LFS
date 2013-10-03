@@ -19,15 +19,13 @@
         <node comment="Out point of log cordinations" name="OUT_LOG_POINT1" position="-10.00,11.00" prototype="corevector.null"/>
         <node comment="OUT OF STRING" name="OUT_S_S" position="11.00,12.00" prototype="corevector.null"/>
         <node comment="OUT OF STRING" name="OUT_S_S1" position="-10.00,13.00" prototype="corevector.null"/>
-        <node name="TxT_Ofset_X" position="19.00,4.00" prototype="corevector.null"/>
         <node comment="NIE TETOWANE NA WIELU PLIKACH" name="UWAGA" position="8.00,-16.00" prototype="corevector.null"/>
         <node comment="KOLUMNY W PLIKU CSV MUSZA SIE NZAYWAC (&quot;time&quot;size&quot; ) INACZEJ BEDZIE TRZEBA ZMIENIAC NAZWY KOLUMN W WEZŁACH LOOKUP" name="UWAGA1" position="8.00,-15.00" prototype="corevector.null"/>
-        <node name="abs1" position="19.00,3.00" prototype="math.abs"/>
-        <node name="abs3" position="19.00,-9.00" prototype="math.abs">
-            <port name="value" type="float" value="157.0"/>
+        <node name="abs3" position="19.00,-10.00" prototype="math.abs">
+            <port name="value" type="float" value="189.0"/>
         </node>
-        <node name="abs4" position="6.00,3.00" prototype="math.abs">
-            <port name="value" type="float" value="6.0"/>
+        <node name="abs4" position="6.00,2.00" prototype="math.abs">
+            <port name="value" type="float" value="-12.0"/>
         </node>
         <node name="add1" position="3.00,0.00" prototype="math.add">
             <port name="value2" type="float" value="-207.0"/>
@@ -66,7 +64,6 @@
             <port name="position" type="point" value="0.00,20.00"/>
         </node>
         <node comment="translate to log_points cordinations" name="translate1" position="11.00,11.00" prototype="corevector.translate"/>
-        <node name="translate2" position="12.00,9.00" prototype="corevector.translate"/>
         <conn input="multiply3.value1" output="log1"/>
         <conn input="multiply4.value1" output="multiply5"/>
         <conn input="concatenate1.string1" output="integer1"/>
@@ -79,7 +76,6 @@
         <conn input="first2.list" output="multiply4"/>
         <conn input="IMPORT_CSV.shape" output="import_csv4"/>
         <conn input="lookup4.list" output="IMPORT_CSV"/>
-        <conn input="TxT_Ofset_X.shape" output="abs1"/>
         <conn input="LOG_IN.shape" output="distinct5"/>
         <conn input="log1.value" output="LOG_IN"/>
         <conn input="make_point3.x" output="LOG_OUT"/>
@@ -96,10 +92,7 @@
         <conn input="integer1.value" output="IN_S_S"/>
         <conn input="combine3.list3" output="OUT_S_S"/>
         <conn input="OUT_S_S.shape" output="translate1"/>
-        <conn input="translate1.translate" output="translate2"/>
         <conn input="translate1.shape" output="textpath1"/>
-        <conn input="translate2.shape" output="make_point3"/>
-        <conn input="translate2.translate" output="TxT_Ofset_X"/>
         <conn input="multiply3.value2" output="LOG_MULTI"/>
         <conn input="LOG_MULTI.shape" output="abs3"/>
         <conn input="OUT_LOG.shape" output="add1"/>
@@ -107,5 +100,6 @@
         <conn input="OUT_LOG_POINT1.shape" output="make_point3"/>
         <conn input="OUT_S_S1.shape" output="translate1"/>
         <conn input="OFSET_Y1.shape" output="abs4"/>
+        <conn input="translate1.translate" output="make_point3"/>
     </node>
 </ndbx>
