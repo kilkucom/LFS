@@ -1,0 +1,1355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>LizardFS Info (LizardFS)</title>
+<link href="http://localhost:9425/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/mfs.css" type="text/css">
+</head>
+<body>
+<div id="header">
+<table class="HDR" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="LOGO"><a href="http://www.lizardfs.org/"><img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/logomini.png" alt="logo" style="border:0;width:123px;height:47px"></a></td>
+<td class="MENU"><table class="MENU" cellspacing="0">
+<tbody><tr>
+<td class="US"><a href="http://localhost:9425/mfs.cgi?sections=IN">Info</a> <a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC">−</a></td>
+<td class="SU"><a href="http://localhost:9425/mfs.cgi?sections=CS">Servers</a> <a href="http://localhost:9425/mfs.cgi?sections=CS%7CMO%7CMC%7CIN">+</a></td>
+<td class="UU"><a href="http://localhost:9425/mfs.cgi?sections=HD">Disks</a> <a href="http://localhost:9425/mfs.cgi?sections=MO%7CHD%7CMC%7CIN">+</a></td>
+<td class="UU"><a href="http://localhost:9425/mfs.cgi?sections=EX">Exports</a> <a href="http://localhost:9425/mfs.cgi?sections=MO%7CEX%7CMC%7CIN">+</a></td>
+<td class="UU"><a href="http://localhost:9425/mfs.cgi?sections=MS">Mounts</a> <a href="http://localhost:9425/mfs.cgi?sections=MO%7CMS%7CMC%7CIN">+</a></td>
+<td class="US"><a href="http://localhost:9425/mfs.cgi?sections=MO">Operations</a> <a href="http://localhost:9425/mfs.cgi?sections=MC%7CIN">−</a></td>
+<td class="SS"><a href="http://localhost:9425/mfs.cgi?sections=MC">Master Charts</a> <a href="http://localhost:9425/mfs.cgi?sections=MO%7CIN">−</a></td>
+<td class="SU"><a href="http://localhost:9425/mfs.cgi?sections=CC">Server Charts</a> <a href="http://localhost:9425/mfs.cgi?sections=CC%7CMO%7CMC%7CIN">+</a></td>
+<td class="UU"><a href="http://localhost:9425/mfs.cgi?sections=AUDIT">Audit</a> <a href="http://localhost:9425/mfs.cgi?sections=AUDIT%7CMO%7CMC%7CIN">+</a></td>
+<td class="LUU"><a href="http://localhost:9425/mfs.cgi?sections=HELP">Help</a> <a href="http://localhost:9425/mfs.cgi?sections=MO%7CHELP%7CMC%7CIN">+</a></td>
+</tr>
+</tbody></table></td>
+<td class="FILLER" style="white-space:nowrap;">
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="container">
+<table class="FR" cellspacing="0">
+	<tbody><tr><th colspan="14">Info</th></tr>
+	<tr>
+		<th>version</th>
+		<th>RAM used</th>
+		<th>total space</th>
+		<th>avail space</th>
+		<th>trash space</th>
+		<th>trash files</th>
+		<th>reserved space</th>
+		<th>reserved files</th>
+		<th>all fs objects</th>
+		<th>directories</th>
+		<th>files</th>
+		<th>chunks</th>
+		<th><a style="cursor:default" title="chunks from 'regular' hdd space and 'marked for removal' hdd space">all chunk copies</a></th>
+		<th><a style="cursor:default" title="only chunks from 'regular' hdd space">regular chunk copies</a></th>
+	</tr>
+	<tr>
+		<td align="center">1.6.27</td>
+		<td align="right"><a style="cursor:default" title="637 046 784 B">608&nbsp;MiB</a></td>
+		<td align="right"><a style="cursor:default" title="1 051 980 333 056 B">980&nbsp;GiB</a></td>
+		<td align="right"><a style="cursor:default" title="817 350 287 360 B">761&nbsp;GiB</a></td>
+		<td align="right"><a style="cursor:default" title="0 B">0&nbsp;B</a></td>
+		<td align="right">0</td>
+		<td align="right"><a style="cursor:default" title="0 B">0&nbsp;B</a></td>
+		<td align="right">0</td>
+		<td align="right">1307</td>
+		<td align="right">187</td>
+		<td align="right">1120</td>
+		<td align="right">261525</td>
+		<td align="right">1988015</td>
+		<td align="right">1988015</td>
+	</tr>
+</tbody></table>
+<br>
+<table class="FR" cellspacing="0">
+	<tbody><tr><th colspan="13">All chunks state matrix (counts 'regular' hdd space and 'marked for removal' hdd space : <a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;INmatrix=1" class="VISIBLELINK">switch to 'regular'</a>)</th></tr>
+	<tr>
+		<th rowspan="2" class="PERC4">goal</th>
+		<th colspan="12" class="PERC96">valid copies</th>
+	</tr>
+	<tr>
+		<th class="PERC8">0</th>
+		<th class="PERC8">1</th>
+		<th class="PERC8">2</th>
+		<th class="PERC8">3</th>
+		<th class="PERC8">4</th>
+		<th class="PERC8">5</th>
+		<th class="PERC8">6</th>
+		<th class="PERC8">7</th>
+		<th class="PERC8">8</th>
+		<th class="PERC8">9</th>
+		<th class="PERC8">10+</th>
+		<th class="PERC8">all</th>
+	</tr>
+	<tr>
+		<td align="center">0</td>
+		<td align="right"><span class="DELETEREADY">7404</span></td>
+		<td align="right"><span class="DELETEPENDING">7788</span></td>
+		<td align="right"><span class="DELETEPENDING">9691</span></td>
+		<td align="right"><span class="DELETEPENDING">8555</span></td>
+		<td align="right"><span class="DELETEPENDING">4224</span></td>
+		<td align="right"><span class="DELETEPENDING">2858</span></td>
+		<td align="right"><span class="DELETEPENDING">2969</span></td>
+		<td align="right"><span class="DELETEPENDING">3333</span></td>
+		<td align="right"><span class="DELETEPENDING">64977</span></td>
+		<td align="right"><span class="DELETEPENDING">148620</span></td>
+		<td align="center">-</td>
+		<td align="right"><span class="IGNORE">260419</span></td>
+	</tr>
+	<tr>
+		<td align="center">1</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">149</span></td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">149</td>
+	</tr>
+	<tr>
+		<td align="center">2</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">114</span></td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">114</td>
+	</tr>
+	<tr>
+		<td align="center">3</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">125</span></td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">125</td>
+	</tr>
+	<tr>
+		<td align="center">4</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">114</span></td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">114</td>
+	</tr>
+	<tr>
+		<td align="center">5</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">114</span></td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">114</td>
+	</tr>
+	<tr>
+		<td align="center">6</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">131</span></td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">131</td>
+	</tr>
+	<tr>
+		<td align="center">7</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">114</span></td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">114</td>
+	</tr>
+	<tr>
+		<td align="center">8</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">114</span></td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">114</td>
+	</tr>
+	<tr>
+		<td align="center">9</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right"><span class="NORMAL">131</span></td>
+		<td align="center">-</td>
+		<td align="right">131</td>
+	</tr>
+	<tr>
+		<td align="center">10+</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="right">0</td>
+	</tr>
+	<tr>
+		<td align="center">all 1+</td>
+		<td align="right">0</td>
+		<td align="right">149</td>
+		<td align="right">114</td>
+		<td align="right">125</td>
+		<td align="right">114</td>
+		<td align="right">114</td>
+		<td align="right">131</td>
+		<td align="right">114</td>
+		<td align="right">114</td>
+		<td align="right">131</td>
+		<td align="right">0</td>
+		<td align="right">1106</td>
+	</tr>
+	<tr><td colspan="13"><span class="MISSINGBOX"></span>&nbsp;-&nbsp;missing (<span class="MISSING">0</span>) / <span class="ENDANGEREDBOX"></span>&nbsp;-&nbsp;endangered (<span class="ENDANGERED">0</span>) / <span class="UNDERGOALBOX"></span>&nbsp;-&nbsp;undergoal (<span class="UNDERGOAL">0</span>) / <span class="NORMALBOX"></span>&nbsp;-&nbsp;stable (<span class="NORMAL">1106</span>) / <span class="OVERGOALBOX"></span>&nbsp;-&nbsp;overgoal (<span class="OVERGOAL">0</span>) / <span class="DELETEPENDINGBOX"></span>&nbsp;-&nbsp;pending&nbsp;deletion (<span class="DELETEPENDING">253015</span>) / <span class="DELETEREADYBOX"></span>&nbsp;-&nbsp;ready&nbsp;to&nbsp;be&nbsp;removed (<span class="DELETEREADY">7404</span>)</td></tr>
+</tbody></table>
+<br>
+<table class="FR" cellspacing="0">
+	<tbody><tr><th colspan="8">Chunk operations info</th></tr>
+	<tr>
+		<th colspan="2">loop time</th>
+		<th colspan="4">deletions</th>
+		<th colspan="2">replications</th>
+	</tr>
+	<tr>
+		<th>start</th>
+		<th>end</th>
+		<th>invalid</th>
+		<th>unused</th>
+		<th>disk clean</th>
+		<th>over goal</th>
+		<th>under goal</th>
+		<th>rebalance</th>
+	</tr>
+	<tr>
+		<td align="center">Wed Sep 11 23:56:59 2013</td>
+		<td align="center">Thu Sep 12 00:01:59 2013</td>
+		<td align="right">0/0</td>
+		<td align="right">62700/2085689</td>
+		<td align="right">0/0</td>
+		<td align="right">0/0</td>
+		<td align="right">0/0</td>
+		<td align="right">0</td>
+	</tr>
+</tbody></table>
+<br>
+<table class="FR" cellspacing="0">
+	<tbody><tr><th colspan="8">Filesystem check info</th></tr>
+	<tr>
+		<th>check loop start time</th>
+		<th>check loop end time</th>
+		<th>files</th>
+		<th>under-goal files</th>
+		<th>missing files</th>
+		<th>chunks</th>
+		<th>under-goal chunks</th>
+		<th>missing chunks</th>
+	</tr>
+	<tr>
+		<td align="center">Wed Sep 11 16:41:07 2013</td>
+		<td align="center">Wed Sep 11 20:41:22 2013</td>
+		<td align="right">77170</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">77140</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+</tbody></table>
+<br>
+<table class="CR" cellspacing="0">
+	<tbody><tr><th colspan="21">Active mounts (operations)</th></tr>
+	<tr>
+		<th rowspan="2">#</th>
+		<th rowspan="2"><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=1">host</a></th>
+		<th rowspan="2"><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=2">ip</a></th>
+		<th rowspan="2"><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=3">mount&nbsp;point</a></th>
+		<th colspan="17">operations current hour/last hour</th>
+	</tr>
+	<tr>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=100">statfs</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=101">getattr</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=102">setattr</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=103">lookup</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=104">mkdir</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=105">rmdir</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=106">symlink</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=107">readlink</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=108">mknod</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=109">unlink</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=110">rename</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=111">link</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=112">readdir</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=113">open</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=114">read</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=115">write</a></th>
+		<th><a href="http://localhost:9425/mfs.cgi?sections=MO%7CMC%7CIN&amp;MOrev=0&amp;MOorder=150">total</a></th>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">1</td>
+		<td rowspan="2" align="left">b1.cluster2.genesilico.pl</td>
+		<td rowspan="2" align="center">10.1.1.1</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">1</td>
+		<td align="right">1</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">12</td>
+		<td align="right">1312</td>
+		<td align="right">0</td>
+		<td align="right">2386</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1063</td>
+		<td align="right">977</td>
+		<td align="right">304</td>
+		<td align="right">0</td>
+		<td align="right">6054</td>
+	</tr>
+	<tr class="C3">
+		<td rowspan="2" align="right">2</td>
+		<td rowspan="2" align="left">client23</td>
+		<td rowspan="2" align="center">10.1.1.51</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C4">
+		<td align="right">0</td>
+		<td align="right">15049</td>
+		<td align="right">0</td>
+		<td align="right">39634</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3928</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">7855</td>
+		<td align="right">2</td>
+		<td align="right">4053</td>
+		<td align="right">80521</td>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">3</td>
+		<td rowspan="2" align="left">client32</td>
+		<td rowspan="2" align="center">10.1.1.55</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">0</td>
+		<td align="right">13494</td>
+		<td align="right">0</td>
+		<td align="right">33114</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2624</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">5247</td>
+		<td align="right">1</td>
+		<td align="right">2731</td>
+		<td align="right">67211</td>
+	</tr>
+	<tr class="C3">
+		<td rowspan="2" align="right">4</td>
+		<td rowspan="2" align="left">client38</td>
+		<td rowspan="2" align="center">10.1.1.56</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C4">
+		<td align="right">0</td>
+		<td align="right">13929</td>
+		<td align="right">0</td>
+		<td align="right">34834</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2968</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">5935</td>
+		<td align="right">1</td>
+		<td align="right">3082</td>
+		<td align="right">70749</td>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">5</td>
+		<td rowspan="2" align="left">client37</td>
+		<td rowspan="2" align="center">10.1.1.57</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">0</td>
+		<td align="right">13677</td>
+		<td align="right">0</td>
+		<td align="right">33804</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2762</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">5523</td>
+		<td align="right">1</td>
+		<td align="right">2867</td>
+		<td align="right">68634</td>
+	</tr>
+	<tr class="C3">
+		<td rowspan="2" align="right">6</td>
+		<td rowspan="2" align="left">client27</td>
+		<td rowspan="2" align="center">10.1.1.58</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C4">
+		<td align="right">0</td>
+		<td align="right">14983</td>
+		<td align="right">0</td>
+		<td align="right">39459</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3893</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">7785</td>
+		<td align="right">0</td>
+		<td align="right">4024</td>
+		<td align="right">80144</td>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">7</td>
+		<td rowspan="2" align="left">client35</td>
+		<td rowspan="2" align="center">10.1.1.59</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">0</td>
+		<td align="right">15017</td>
+		<td align="right">0</td>
+		<td align="right">39534</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3908</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">7815</td>
+		<td align="right">1</td>
+		<td align="right">4051</td>
+		<td align="right">80326</td>
+	</tr>
+	<tr class="C3">
+		<td rowspan="2" align="right">8</td>
+		<td rowspan="2" align="left">client36</td>
+		<td rowspan="2" align="center">10.1.1.60</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C4">
+		<td align="right">0</td>
+		<td align="right">13675</td>
+		<td align="right">0</td>
+		<td align="right">33879</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2777</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">5553</td>
+		<td align="right">1</td>
+		<td align="right">2889</td>
+		<td align="right">68774</td>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">9</td>
+		<td rowspan="2" align="left">client29</td>
+		<td rowspan="2" align="center">10.1.1.61</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">0</td>
+		<td align="right">13761</td>
+		<td align="right">0</td>
+		<td align="right">34144</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2830</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">5659</td>
+		<td align="right">1</td>
+		<td align="right">2934</td>
+		<td align="right">69329</td>
+	</tr>
+	<tr class="C3">
+		<td rowspan="2" align="right">10</td>
+		<td rowspan="2" align="left">client25</td>
+		<td rowspan="2" align="center">10.1.1.62</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C4">
+		<td align="right">0</td>
+		<td align="right">15073</td>
+		<td align="right">0</td>
+		<td align="right">39839</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3969</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">7937</td>
+		<td align="right">1</td>
+		<td align="right">4105</td>
+		<td align="right">80924</td>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">11</td>
+		<td rowspan="2" align="left">client28</td>
+		<td rowspan="2" align="center">10.1.1.63</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">0</td>
+		<td align="right">13377</td>
+		<td align="right">0</td>
+		<td align="right">32684</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2538</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">5075</td>
+		<td align="right">1</td>
+		<td align="right">2636</td>
+		<td align="right">66311</td>
+	</tr>
+	<tr class="C3">
+		<td rowspan="2" align="right">12</td>
+		<td rowspan="2" align="left">client31</td>
+		<td rowspan="2" align="center">10.1.1.64</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C4">
+		<td align="right">0</td>
+		<td align="right">14034</td>
+		<td align="right">0</td>
+		<td align="right">35269</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3055</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">6109</td>
+		<td align="right">1</td>
+		<td align="right">3161</td>
+		<td align="right">71629</td>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">13</td>
+		<td rowspan="2" align="left">client34</td>
+		<td rowspan="2" align="center">10.1.1.65</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">0</td>
+		<td align="right">13853</td>
+		<td align="right">0</td>
+		<td align="right">34564</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2914</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">5827</td>
+		<td align="right">2</td>
+		<td align="right">3024</td>
+		<td align="right">70184</td>
+	</tr>
+	<tr class="C3">
+		<td rowspan="2" align="right">14</td>
+		<td rowspan="2" align="left">client30</td>
+		<td rowspan="2" align="center">10.1.1.66</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C4">
+		<td align="right">0</td>
+		<td align="right">13064</td>
+		<td align="right">0</td>
+		<td align="right">31549</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2311</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">4621</td>
+		<td align="right">1</td>
+		<td align="right">2395</td>
+		<td align="right">63941</td>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">15</td>
+		<td rowspan="2" align="left">client33</td>
+		<td rowspan="2" align="center">10.1.1.67</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">0</td>
+		<td align="right">13689</td>
+		<td align="right">0</td>
+		<td align="right">33954</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2792</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">5583</td>
+		<td align="right">1</td>
+		<td align="right">2908</td>
+		<td align="right">68927</td>
+	</tr>
+	<tr class="C3">
+		<td rowspan="2" align="right">16</td>
+		<td rowspan="2" align="left">client24</td>
+		<td rowspan="2" align="center">10.1.1.68</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C4">
+		<td align="right">0</td>
+		<td align="right">14837</td>
+		<td align="right">0</td>
+		<td align="right">38819</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3765</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">7529</td>
+		<td align="right">1</td>
+		<td align="right">3894</td>
+		<td align="right">78845</td>
+	</tr>
+	<tr class="C1">
+		<td rowspan="2" align="right">17</td>
+		<td rowspan="2" align="left">client26</td>
+		<td rowspan="2" align="center">10.1.1.69</td>
+		<td rowspan="2" align="left">/srv/lizardfs</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+	</tr>
+	<tr class="C2">
+		<td align="right">0</td>
+		<td align="right">14909</td>
+		<td align="right">0</td>
+		<td align="right">39084</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3818</td>
+		<td align="right">9999</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1</td>
+		<td align="right">7635</td>
+		<td align="right">1</td>
+		<td align="right">3946</td>
+		<td align="right">79393</td>
+	</tr>
+</tbody></table>
+<br>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+	var i,j;
+	var ma_chartid = new Array(0,0);
+	var ma_range=0;
+	var ma_imgs = new Array();
+	var ma_vids = new Array(100, 20, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24);
+	var ma_inames = new Array('cpu', 'memory', 'dels', 'repl', 'stafs', 'getattr', 'setattr', 'lookup', 'mkdir', 'rmdir', 'symlink', 'readlink', 'mknod', 'unlink', 'rename', 'link', 'readdir', 'open', 'read', 'write', 'prcvd', 'psent', 'brcvd', 'bsent');
+	var ma_idesc = new Array('cpu usage (percent)', 'memory usage (if available)', 'chunk deletions (per minute)', 'chunk replications (per minute)', 'statfs operations (per minute)', 'getattr operations (per minute)', 'setattr operations (per minute)', 'lookup operations (per minute)', 'mkdir operations (per minute)', 'rmdir operations (per minute)', 'symlink operations (per minute)', 'readlink operations (per minute)', 'mknod operations (per minute)', 'unlink operations (per minute)', 'rename operations (per minute)', 'link operations (per minute)', 'readdir operations (per minute)', 'open operations (per minute)', 'read operations (per minute)', 'write operations (per minute)', 'packets received (per second)', 'packets sent (per second)', 'bits received (per second)', 'bits sent (per second)');
+	for (i=0 ; i<ma_vids.length ; i++) {
+		for (j=0 ; j<4 ; j++) {
+			var vid = ma_vids[i];
+			var id = vid*10+j;
+			ma_imgs[id] = new Image();
+			ma_imgs[id].src = "chart.cgi?host=127.0.0.1&amp;port=9421&amp;id="+id;
+		}
+	}
+	function ma_change(num) {
+		for (i=0 ; i<ma_inames.length ; i++) {
+			var name = "ma_"+ma_inames[i];
+			var vid = ma_vids[i];
+			var id = vid*10+num;
+			document.images[name].src = ma_imgs[id].src;
+		}
+	}
+	function ma_cmp_refresh() {
+		var vid,id,iname;
+		for (i=0 ; i<2 ; i++) {
+			vid = ma_vids[ma_chartid[i]];
+			id = vid*10+ma_range;
+			iname = "ma_chart"+i;
+			document.images[iname].src = ma_imgs[id].src;
+		}
+	}
+	function ma_change_range(no) {
+		ma_range = no;
+		ma_cmp_refresh();
+	}
+	function ma_change_type(id,no) {
+		var o;
+		o = document.getElementById("ma_cell_"+id+"_"+ma_chartid[id]);
+		o.className="REL";
+		ma_chartid[id]=no;
+		o = document.getElementById("ma_cell_"+id+"_"+ma_chartid[id]);
+		o.className="PR";
+		o = document.getElementById("ma_desc"+id);
+		o.innerHTML = ma_idesc[no];
+		ma_cmp_refresh();
+	}
+//--><!]]>
+</script>
+<table class="FR" cellspacing="0">
+	<tbody><tr>
+		<th><a href="javascript:ma_change(0);">short range</a></th>
+		<th><a href="javascript:ma_change(1);">medium range</a></th>
+		<th><a href="javascript:ma_change(2);">long range</a></th>
+		<th><a href="javascript:ma_change(3);">very long range</a></th>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			cpu usage (percent):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_016.png" id="ma_cpu" alt="cpu" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			memory usage (if available):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_002.png" id="ma_memory" alt="memory" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			chunk deletions (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_024.png" id="ma_dels" alt="dels" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			chunk replications (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart.png" id="ma_repl" alt="repl" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			statfs operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_013.png" id="ma_stafs" alt="stafs" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			getattr operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_021.png" id="ma_getattr" alt="getattr" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			setattr operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_004.png" id="ma_setattr" alt="setattr" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			lookup operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_022.png" id="ma_lookup" alt="lookup" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			mkdir operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_010.png" id="ma_mkdir" alt="mkdir" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			rmdir operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_006.png" id="ma_rmdir" alt="rmdir" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			symlink operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_020.png" id="ma_symlink" alt="symlink" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			readlink operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_012.png" id="ma_readlink" alt="readlink" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			mknod operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_008.png" id="ma_mknod" alt="mknod" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			unlink operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_014.png" id="ma_unlink" alt="unlink" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			rename operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_005.png" id="ma_rename" alt="rename" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			link operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_003.png" id="ma_link" alt="link" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			readdir operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_007.png" id="ma_readdir" alt="readdir" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			open operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_011.png" id="ma_open" alt="open" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			read operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_009.png" id="ma_read" alt="read" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			write operations (per minute):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_023.png" id="ma_write" alt="write" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			packets received (per second):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_015.png" id="ma_prcvd" alt="prcvd" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			packets sent (per second):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_019.png" id="ma_psent" alt="psent" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			bits received (per second):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_017.png" id="ma_brcvd" alt="brcvd" height="120" width="1000">
+		</td>
+	</tr>
+	<tr class="C2">
+		<td colspan="4" align="center">
+			bits sent (per second):<br>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_018.png" id="ma_bsent" alt="bsent" height="120" width="1000">
+		</td>
+	</tr>
+</tbody></table>
+<br>
+<table class="FR" cellspacing="0">
+	<tbody><tr>
+		<th><a href="javascript:ma_change_range(0);">short range</a></th>
+		<th><a href="javascript:ma_change_range(1);">medium range</a></th>
+		<th><a href="javascript:ma_change_range(2);">long range</a></th>
+		<th><a href="javascript:ma_change_range(3);">very long range</a></th>
+	</tr>
+</tbody></table>
+<table class="FR" cellspacing="0">
+	<tbody><tr>
+		<td colspan="4" align="center">
+			<div id="ma_desc0">cpu usage (percent)</div>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_016.png" id="ma_chart0" alt="chart" height="120" width="1000">
+			<table class="BOTMENU" cellspacing="0">
+				<tbody><tr>
+					<td id="ma_cell_0_0" class="PR" align="center"><a href="javascript:ma_change_type(0,0);" title="cpu usage (percent)">cpu</a></td>
+					<td id="ma_cell_0_1" class="REL" align="center"><a href="javascript:ma_change_type(0,1);" title="memory usage (if available)">memory</a></td>
+					<td id="ma_cell_0_2" class="REL" align="center"><a href="javascript:ma_change_type(0,2);" title="chunk deletions (per minute)">dels</a></td>
+					<td id="ma_cell_0_3" class="REL" align="center"><a href="javascript:ma_change_type(0,3);" title="chunk replications (per minute)">repl</a></td>
+					<td id="ma_cell_0_4" class="REL" align="center"><a href="javascript:ma_change_type(0,4);" title="statfs operations (per minute)">stafs</a></td>
+					<td id="ma_cell_0_5" class="REL" align="center"><a href="javascript:ma_change_type(0,5);" title="getattr operations (per minute)">getattr</a></td>
+					<td id="ma_cell_0_6" class="REL" align="center"><a href="javascript:ma_change_type(0,6);" title="setattr operations (per minute)">setattr</a></td>
+					<td id="ma_cell_0_7" class="REL" align="center"><a href="javascript:ma_change_type(0,7);" title="lookup operations (per minute)">lookup</a></td>
+					<td id="ma_cell_0_8" class="REL" align="center"><a href="javascript:ma_change_type(0,8);" title="mkdir operations (per minute)">mkdir</a></td>
+					<td id="ma_cell_0_9" class="REL" align="center"><a href="javascript:ma_change_type(0,9);" title="rmdir operations (per minute)">rmdir</a></td>
+					<td id="ma_cell_0_10" class="REL" align="center"><a href="javascript:ma_change_type(0,10);" title="symlink operations (per minute)">symlink</a></td>
+					<td id="ma_cell_0_11" class="REL" align="center"><a href="javascript:ma_change_type(0,11);" title="readlink operations (per minute)">readlink</a></td>
+					<td id="ma_cell_0_12" class="REL" align="center"><a href="javascript:ma_change_type(0,12);" title="mknod operations (per minute)">mknod</a></td>
+					<td id="ma_cell_0_13" class="REL" align="center"><a href="javascript:ma_change_type(0,13);" title="unlink operations (per minute)">unlink</a></td>
+					<td id="ma_cell_0_14" class="REL" align="center"><a href="javascript:ma_change_type(0,14);" title="rename operations (per minute)">rename</a></td>
+					<td id="ma_cell_0_15" class="REL" align="center"><a href="javascript:ma_change_type(0,15);" title="link operations (per minute)">link</a></td>
+					<td id="ma_cell_0_16" class="REL" align="center"><a href="javascript:ma_change_type(0,16);" title="readdir operations (per minute)">readdir</a></td>
+					<td id="ma_cell_0_17" class="REL" align="center"><a href="javascript:ma_change_type(0,17);" title="open operations (per minute)">open</a></td>
+					<td id="ma_cell_0_18" class="REL" align="center"><a href="javascript:ma_change_type(0,18);" title="read operations (per minute)">read</a></td>
+					<td id="ma_cell_0_19" class="REL" align="center"><a href="javascript:ma_change_type(0,19);" title="write operations (per minute)">write</a></td>
+					<td id="ma_cell_0_20" class="REL" align="center"><a href="javascript:ma_change_type(0,20);" title="packets received (per second)">prcvd</a></td>
+					<td id="ma_cell_0_21" class="REL" align="center"><a href="javascript:ma_change_type(0,21);" title="packets sent (per second)">psent</a></td>
+					<td id="ma_cell_0_22" class="REL" align="center"><a href="javascript:ma_change_type(0,22);" title="bits received (per second)">brcvd</a></td>
+					<td id="ma_cell_0_23" class="REL" align="center"><a href="javascript:ma_change_type(0,23);" title="bits sent (per second)">bsent</a></td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">
+			<div id="ma_desc1">cpu usage (percent)</div>
+			<img src="LizardFS%20Info%20%28LizardFS%29_10k_concurent_multigoal_copy_files/chart_016.png" id="ma_chart1" alt="chart" height="120" width="1000">
+			<table class="BOTMENU" cellspacing="0">
+				<tbody><tr>
+					<td id="ma_cell_1_0" class="PR" align="center"><a href="javascript:ma_change_type(1,0);" title="cpu usage (percent)">cpu</a></td>
+					<td id="ma_cell_1_1" class="REL" align="center"><a href="javascript:ma_change_type(1,1);" title="memory usage (if available)">memory</a></td>
+					<td id="ma_cell_1_2" class="REL" align="center"><a href="javascript:ma_change_type(1,2);" title="chunk deletions (per minute)">dels</a></td>
+					<td id="ma_cell_1_3" class="REL" align="center"><a href="javascript:ma_change_type(1,3);" title="chunk replications (per minute)">repl</a></td>
+					<td id="ma_cell_1_4" class="REL" align="center"><a href="javascript:ma_change_type(1,4);" title="statfs operations (per minute)">stafs</a></td>
+					<td id="ma_cell_1_5" class="REL" align="center"><a href="javascript:ma_change_type(1,5);" title="getattr operations (per minute)">getattr</a></td>
+					<td id="ma_cell_1_6" class="REL" align="center"><a href="javascript:ma_change_type(1,6);" title="setattr operations (per minute)">setattr</a></td>
+					<td id="ma_cell_1_7" class="REL" align="center"><a href="javascript:ma_change_type(1,7);" title="lookup operations (per minute)">lookup</a></td>
+					<td id="ma_cell_1_8" class="REL" align="center"><a href="javascript:ma_change_type(1,8);" title="mkdir operations (per minute)">mkdir</a></td>
+					<td id="ma_cell_1_9" class="REL" align="center"><a href="javascript:ma_change_type(1,9);" title="rmdir operations (per minute)">rmdir</a></td>
+					<td id="ma_cell_1_10" class="REL" align="center"><a href="javascript:ma_change_type(1,10);" title="symlink operations (per minute)">symlink</a></td>
+					<td id="ma_cell_1_11" class="REL" align="center"><a href="javascript:ma_change_type(1,11);" title="readlink operations (per minute)">readlink</a></td>
+					<td id="ma_cell_1_12" class="REL" align="center"><a href="javascript:ma_change_type(1,12);" title="mknod operations (per minute)">mknod</a></td>
+					<td id="ma_cell_1_13" class="REL" align="center"><a href="javascript:ma_change_type(1,13);" title="unlink operations (per minute)">unlink</a></td>
+					<td id="ma_cell_1_14" class="REL" align="center"><a href="javascript:ma_change_type(1,14);" title="rename operations (per minute)">rename</a></td>
+					<td id="ma_cell_1_15" class="REL" align="center"><a href="javascript:ma_change_type(1,15);" title="link operations (per minute)">link</a></td>
+					<td id="ma_cell_1_16" class="REL" align="center"><a href="javascript:ma_change_type(1,16);" title="readdir operations (per minute)">readdir</a></td>
+					<td id="ma_cell_1_17" class="REL" align="center"><a href="javascript:ma_change_type(1,17);" title="open operations (per minute)">open</a></td>
+					<td id="ma_cell_1_18" class="REL" align="center"><a href="javascript:ma_change_type(1,18);" title="read operations (per minute)">read</a></td>
+					<td id="ma_cell_1_19" class="REL" align="center"><a href="javascript:ma_change_type(1,19);" title="write operations (per minute)">write</a></td>
+					<td id="ma_cell_1_20" class="REL" align="center"><a href="javascript:ma_change_type(1,20);" title="packets received (per second)">prcvd</a></td>
+					<td id="ma_cell_1_21" class="REL" align="center"><a href="javascript:ma_change_type(1,21);" title="packets sent (per second)">psent</a></td>
+					<td id="ma_cell_1_22" class="REL" align="center"><a href="javascript:ma_change_type(1,22);" title="bits received (per second)">brcvd</a></td>
+					<td id="ma_cell_1_23" class="REL" align="center"><a href="javascript:ma_change_type(1,23);" title="bits sent (per second)">bsent</a></td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<br>
+</div> <!-- end of container -->
+
+
+</body></html>

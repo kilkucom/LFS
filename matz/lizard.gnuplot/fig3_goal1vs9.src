@@ -1,0 +1,12 @@
+set title "Testing MooseFS chunkservers (dd test bs=4k-1024k, 640MB file size)"
+set ylabel "MB/s"
+set xlabel "chunk size"
+
+set yr [0:100] #ustawiamy skale dla osi y i x
+set xr [-8:1048]
+
+set xtics ("4k" 4 -3, "" 8 -3, "" 16 -3, "" 32 -3, "64k" 64 -3, "128k" 128 -3, "256k" 256 -3, "512k" 512 -3, "1024k" 1024 -3) #podpisalem se 
+
+plot "goal_1.dat" using 1:2 title "Goal 1", "goal_9.dat" using 1:2 title "Goal 9"
+
+pause -1 

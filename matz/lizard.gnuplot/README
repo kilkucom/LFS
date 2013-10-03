@@ -1,0 +1,14 @@
+Do wygenerowania fig1.png, na ktorym przedstawiona 
+jest zaleznosc wydajnosci w MB/s poszczegolnych chunkserverow 
+o rozmiaru blok_size programu dd. 
+Jest to przydatne do zobaczenia ogolnego stanu wydajnosci jak i 
+daje poglad dot. wydajnosci poszczegolnych chunkserverow 
+(ciekawostka w postaci pierwszej korelacji ... im wiekszy blok size tym wariancja wydajnosci chunkserverow jest wieksza :))
+
+Tak czy inaczej, dla potrzeb wygenerowania fig1.png potrzebowalem zmienic dane z goal_1.csv w 
+taki sposob by pozbyc sie "przecinka", przejsc na KB oraz zamienic kolumny i zapisac wartosci do pliku goal_1.dat
+
+1) sed 's/,/ /g' goal_1.csv | awk '{ print $2/1024, $1}' > goal_1.dat
+2) nastepnie stworzylem plik zrodlowy dla gnuplot fig1_goal1.src w ktorym sa komentarze wyjasniajace (pause -1 jest po to bys mogl skopiowac do clipboard)
+3) odpalasz Gimpa i dajesz "Create from Clipboard", dostajesz swoj wykres ktory zapisuje jako png. 
+

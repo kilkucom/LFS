@@ -1,0 +1,11 @@
+set title "Testing MooseFS chunkservers (dd test bs=4k-1024k, 640MB file size)"
+set ylabel "MB/s"
+set xlabel "chunk size"
+set yr [0:100]
+set xr [-8:1048]
+#set xtics border in scale 1,0.5 nomirror rotate by -45  offset character 0, 0, 0
+set xtics ("4k" 4 -3, "" 8 -3, "" 16 -3, "" 32 -3, "64k" 64 -3, "128k" 128 -3, "256k" 256 -3, "512k" 512 -3, "1024k" 1024 -3)
+#plot "dd_data.dat" using 1:2 axes x1y1 title "Write(GB/s)" with linespoints,\
+#     "dd_data.dat" using ($1 + 0.2):3 axes x1y1 title "Read(GB/s)" with linespoints
+plot "goal_1.dat" using 1:2 axes x1y1 title "chunkservers performance"
+pause -1
