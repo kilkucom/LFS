@@ -1,0 +1,18 @@
+{
+	"settings":
+	{
+		"build_switcher_systems":
+		[
+			"Unit tests",
+			"CoffeeScript",
+			[
+				"My unit tests",
+				"c:\\builds\\UI_tests.sublime-build"
+			],
+			[
+				"My CoffeeScript",
+				"/Users/me/build/coffee.sublime-build"
+			]
+		]
+	}
+}

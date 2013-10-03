@@ -1,0 +1,702 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aero",
+				"aero2"
+			],
+			[
+				"f",
+				"fi"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"w",
+				"wvdial"
+			],
+			[
+				"co",
+				"code	Tag"
+			],
+			[
+				"b",
+				"bash"
+			],
+			[
+				"re",
+				"recording"
+			],
+			[
+				"od",
+				"odbiorca"
+			],
+			[
+				"in",
+				"int"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/fig1_goal_1.src",
+			"settings":
+			{
+				"buffer_size": 409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/fig2_multigoal.src",
+			"settings":
+			{
+				"buffer_size": 501,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/fig3_goal1vs9.src",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_1.dat",
+			"settings":
+			{
+				"buffer_size": 5025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_3.dat",
+			"settings":
+			{
+				"buffer_size": 5025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_6.dat",
+			"settings":
+			{
+				"buffer_size": 5025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_9.dat",
+			"settings":
+			{
+				"buffer_size": 5025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/README",
+			"settings":
+			{
+				"buffer_size": 934,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"wp",
+				"WP: New Post"
+			],
+			[
+				"bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"jump",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"late",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"latex",
+				"LaTeXTools: Toggle focus (PDF/editor)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"lat",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"la",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"tex",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"LO",
+				"Convert Case: Lower Case"
+			],
+			[
+				"op",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"c++",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"",
+				"Set Syntax: XML"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_1.dat.csv",
+		"/usr/share/arduino/libraries/DmxSimple/DmxSimple.cpp",
+		"/home/sou/Baldur's Gate - Enhanced Edition/override/XPCAP.2DA",
+		"/home/sou/Baldur's Gate - Enhanced Edition/override/STARTBP.2DA",
+		"/home/sou/Baldur's Gate - Enhanced Edition/override/STARTARE.2DA",
+		"/home/sou/Dropbox/teksty_martinez/12",
+		"/home/sou/Dokumenty/teksty_różne/nafejsamartynarelokacja/11",
+		"/home/sou/Dokumenty/teksty_różne/[Dialer aero2]",
+		"/home/sou/3g.sh",
+		"/home/sou/Dokumenty/teksty_różne/po kolei na raspiach",
+		"/home/sou/.cache/.fr-LOSlIC/modem_pack/modem_pack.sh",
+		"/home/sou/Dokumenty/teksty_różne/MONDRZYK",
+		"/home/sou/Dropbox/Arduino (1)/sketchbook/WaveBridge/master_node_softpwm/master_node_softpwm.ino",
+		"/tmp/skrypciorry",
+		"/home/sou/.cache/.fr-Ibo4z2/override/STARTARE.2DA",
+		"/tmp/KwestionariuszdlaklientaWebPremium.docx.txt",
+		"/home/sou/Camera/Pobrane/Kwestionariusz dla klienta WebPremium(1).docx",
+		"/home/sou/skrypty/3g_fungator",
+		"/home/sou/Dokumenty/teksty_różne/untitled.sh",
+		"/home/sou/Dokumenty/teksty_różne/terminus",
+		"/home/sou/skrypty/ping_timestamp",
+		"/home/sou/Dokumenty/sudo iptables --table nat --append POSTROUTING --o",
+		"/home/sou/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/sou/Dokumenty/texlive/cv.tex",
+		"/home/sou/.mailrc",
+		"/home/sou/.config/sublime-text-3/Packages/User/mail-olo.sublime-build",
+		"/home/sou/binarki/fungator",
+		"/home/sou/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/sou/.config/sublime-text-3/Packages/User/LaTeXTools Preferences.sublime-settings",
+		"/home/sou/.config/sublime-text-3/Packages/LaTeXTools-st3/viewPDF.py",
+		"/home/sou/.config/sublime-text-3/Installed Packages/LaTeXTools.sublime-package",
+		"/home/sou/.config/sublime-text-3/Packages/LaTeXTools/README.markdown",
+		"/home/sou/.config/sublime-text-3/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/home/sou/.config/sublime-text-3/Packages/LaTeXTools/LaTeXTools Preferences.sublime-settings",
+		"/home/sou/.gtk-bookmarks",
+		"/home/sou/.bashrc",
+		"/home/sou/Obrazy/foty_relokacja_1/mielonka",
+		"/home/sou/mcabber/mcabberrc",
+		"/home/sou/.config/sublime-text-3/Packages/User/Wordpress.sublime-settings",
+		"/usr/bin/gm-notify",
+		"/home/sou/.config/sublime-text-3/Packages/User/mail.sublime-build",
+		"/home/sou/.pinerc",
+		"/home/sou/.config/sublime-text-3/Packages/User/bash.sublime-build",
+		"/home/sou/Dokumenty/projekty_sublime/latarnie",
+		"/home/sou/Dokumenty/projekty_sublime/latarnie.sublime-project",
+		"/home/sou/.gconf/apps/gm-notify/%gconf.xml",
+		"/usr/bin/gm-notify-config",
+		"/etc/g",
+		"/home/sou/.config/sublime-text-3/Packages/User/zamosc",
+		"/home/sou/wyslane/7",
+		"/home/sou/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/sou/kropka",
+		"/home/sou/flołty.sh",
+		"/home/sou/.config/sublime-text-3/Packages/mailto/mail.sublime-plugin",
+		"/home/sou/mailer",
+		"/home/sou/float11",
+		"/home/sou/.config/sublime-text-3/Packages/User/test.sublime-build",
+		"/home/sou/07_14_2013_02",
+		"/home/sou/07_14_2013_01",
+		"/home/sou/tegen.sh",
+		"/home/sou/words_in.txt",
+		"/home/sou/dupa",
+		"/home/sou/07_14_2013_00",
+		"/home/sou/syfy/sou/sou/stalker.pl/koshi/bandyckie_opowiesci.tex",
+		"/home/sou/syfy/sou/narrentum/Andrzej Sapkowski - Narrenturm CD1.zip",
+		"/home/sou/martynka__07_11_2013_18:41:19",
+		"/home/sou/mail_martynka",
+		"/home/sou/martynka__07_12_2013_15:03:13",
+		"/home/sou/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"=",
+			"*=",
+			", ",
+			" ",
+			"* ",
+			"4",
+			" ",
+			"38",
+			"4 38",
+			" ",
+			"4",
+			"38",
+			"-----------------------------------------------\n",
+			"\n-----------------------------------------",
+			"-----------------------------------------",
+			"sudo apt-get install ",
+			"sudo",
+			"SmoPi",
+			"tuenti",
+			"p",
+			"5pt",
+			"Administrator",
+			"fifo",
+			"[",
+			"\"Wer mit Ungeheuern kämpft, mag zusehn, dass er nicht dabei zum Ungeheuer wird. Und wenn du lange in einen Abgrund blickst, blickt der Abgrund auch in dich hinein.\"\n",
+			"\"mail -s $file -a $file ja < $file\"",
+			"[\"",
+			"dupa",
+			"test",
+			"martynka__",
+			"temat",
+			" +",
+			"Jacek",
+			"wpisać",
+			" +",
+			"    ",
+			" ",
+			" +",
+			"Jacek",
+			"\n",
+			" +",
+			"Jacek",
+			" +",
+			"kdnfdiksdcfksdsddfjkdfddnf",
+			"kdnfdiksdcfksasdddsddfjkdfddnf",
+			"chuj",
+			" ",
+			"test",
+			"nic",
+			"wszystko",
+			"nic",
+			"n",
+			"na",
+			"nic",
+			"nikarag",
+			"nika",
+			"rzeczka",
+			"rzecz",
+			"ni",
+			"a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"++"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/fig1_goal_1.src",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/fig2_multigoal.src",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/fig3_goal1vs9.src",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_1.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_3.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_6.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/goal_9.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/sou/wykresy_mondrzyk/lizard.gnuplot/README",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 934,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 23.0
+	},
+	"project": "LFS.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 144.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
