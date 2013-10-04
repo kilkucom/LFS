@@ -2,50 +2,71 @@
 <ndbx formatVersion="17" type="file" uuid="58d08a76-7e95-462a-b7d4-1b4d19b8b859">
     <property name="canvasHeight" value="1000"/>
     <property name="canvasWidth" value="1000"/>
-    <node name="root" prototype="core.network" renderedChild="combine3">
+    <node name="root" prototype="core.network" renderedChild="colorize1">
         <node comment="bottom line" name="B_L_IN" position="-1.00,4.00" prototype="corevector.null"/>
         <node name="B_L_OUT" position="-1.00,9.00" prototype="corevector.null"/>
         <node name="B_L_OUT1" position="-10.00,9.00" prototype="corevector.null"/>
-        <node name="IMPORT_CSV" position="3.00,-15.00" prototype="corevector.null"/>
+        <node name="IMPORT_CSV" position="3.00,-16.00" prototype="corevector.null"/>
         <node comment="IN Size strings" name="IN_S_S" position="11.00,-10.00" prototype="corevector.null"/>
         <node name="LOG_IN" position="3.00,-10.00" prototype="corevector.null"/>
-        <node name="LOG_MULTI" position="19.00,-8.00" prototype="corevector.null"/>
+        <node name="LOG_IN1" position="23.00,-10.00" prototype="corevector.null"/>
+        <node name="LOG_IN2" position="33.00,-10.00" prototype="corevector.null"/>
+        <node name="LOG_MULTI" position="16.00,-8.00" prototype="corevector.null"/>
+        <node name="LOG_MULTI1" position="37.00,-8.00" prototype="corevector.null"/>
         <node name="LOG_OUT" position="3.00,1.00" prototype="corevector.null"/>
+        <node name="LOG_OUT1" position="23.00,1.00" prototype="corevector.null"/>
+        <node name="LOG_OUT2" position="33.00,1.00" prototype="corevector.null"/>
         <node name="OFSET_Y" position="6.00,4.00" prototype="corevector.null"/>
         <node name="OFSET_Y1" position="-10.00,5.00" prototype="corevector.null"/>
-        <node comment="Generuje Horyzontalną zlogarymizowaną linie wielkośc ( kopiowanych pakietów ) na podstawie pliku csv, wszytkie parametry ( poza multimlikacja logarytmu i ofsete Stringu( textu ) )generowane sa proceduralnie" name="OPIS" position="8.00,-17.00" prototype="corevector.null"/>
+        <node name="OFSET_Y2" position="27.00,2.00" prototype="corevector.null"/>
+        <node name="OFSET_Y3" position="37.00,2.00" prototype="corevector.null"/>
         <node comment="Size value after LOG operationa and MULTIplication" name="OUT_LOG" position="-10.00,3.00" prototype="corevector.null"/>
         <node comment="Out point of log cordinations" name="OUT_LOG_POINT" position="3.00,9.00" prototype="corevector.null"/>
         <node comment="Out point of log cordinations" name="OUT_LOG_POINT1" position="-10.00,11.00" prototype="corevector.null"/>
+        <node comment="Out point of log cordinations" name="OUT_LOG_POINT2" position="23.00,7.00" prototype="corevector.null"/>
+        <node comment="Out point of log cordinations" name="OUT_LOG_POINT3" position="33.00,7.00" prototype="corevector.null"/>
         <node comment="OUT OF STRING" name="OUT_S_S" position="11.00,12.00" prototype="corevector.null"/>
         <node comment="OUT OF STRING" name="OUT_S_S1" position="-10.00,13.00" prototype="corevector.null"/>
-        <node comment="NIE TETOWANE NA WIELU PLIKACH" name="UWAGA" position="8.00,-16.00" prototype="corevector.null"/>
-        <node comment="KOLUMNY W PLIKU CSV MUSZA SIE NZAYWAC (&quot;time&quot;size&quot; ) INACZEJ BEDZIE TRZEBA ZMIENIAC NAZWY KOLUMN W WEZŁACH LOOKUP" name="UWAGA1" position="8.00,-15.00" prototype="corevector.null"/>
-        <node name="abs3" position="19.00,-10.00" prototype="math.abs">
-            <port name="value" type="float" value="189.0"/>
+        <node name="abs3" position="16.00,-9.00" prototype="math.abs">
+            <port name="value" type="float" value="151.0"/>
         </node>
         <node name="abs4" position="6.00,2.00" prototype="math.abs">
             <port name="value" type="float" value="4.0"/>
         </node>
+        <node name="abs5" position="27.00,0.00" prototype="math.abs"/>
+        <node name="abs6" position="37.00,0.00" prototype="math.abs"/>
         <node name="add1" position="3.00,0.00" prototype="math.add">
             <port name="value2" type="float" value="-207.0"/>
         </node>
-        <node name="colorize1" position="4.00,19.00" prototype="corevector.colorize">
+        <node name="add2" position="23.00,0.00" prototype="math.add">
+            <port name="value2" type="float" value="-207.0"/>
+        </node>
+        <node name="add3" position="33.00,0.00" prototype="math.add">
+            <port name="value2" type="float" value="-207.0"/>
+        </node>
+        <node name="colorize1" position="28.00,13.00" prototype="corevector.colorize">
             <port name="fill" type="color" value="#00000000"/>
             <port name="strokeWidth" type="float" value="1.0"/>
         </node>
-        <node name="combine3" position="-1.00,21.00" prototype="list.combine"/>
+        <node name="combine3" position="10.00,20.00" prototype="list.combine"/>
         <node comment="add &quot;space&quot;+&quot;k&quot; after string walue" name="concatenate1" position="11.00,4.00" prototype="string.concatenate">
             <port name="string2" type="string" value=" k"/>
         </node>
         <node comment="Usuwanie duplikatow" name="distinct5" position="3.00,-13.00" prototype="list.distinct"/>
         <node comment="wybiera wartoąc z początku listy uzyskujemy wartośc ofsetu w osi x" name="first2" position="4.00,-2.00" prototype="list.first"/>
+        <node comment="wybiera wartoąc z początku listy uzyskujemy wartośc ofsetu w osi x" name="first3" position="24.00,-2.00" prototype="list.first"/>
+        <node comment="wybiera wartoąc z początku listy uzyskujemy wartośc ofsetu w osi x" name="first4" position="34.00,-2.00" prototype="list.first"/>
         <node comment="inportoiwac tylko skonvertowane .dat do .csv z delimiterem &quot; , &quot; i z podanymi nazwami kolumn" name="import_csv4" position="3.00,-17.00" prototype="data.import_csv">
             <port name="file" type="string" value="/home/pab/_PRO/LFS/data/goal_1.csv"/>
         </node>
         <node comment="Make INT" name="integer1" position="11.00,3.00" prototype="math.integer"/>
         <node comment="Creata botom line" name="line8" position="-1.00,7.00" prototype="corevector.line"/>
         <node comment="Oblicza naturalną wartośc logarytmiczną" name="log1" position="3.00,-8.00" prototype="math.log"/>
+        <node comment="Oblicza naturalną wartośc logarytmiczną" name="log2" position="23.00,-8.00" prototype="math.log"/>
+        <node comment="Oblicza naturalną wartośc logarytmiczną" name="log3" position="33.00,-8.00" prototype="math.log"/>
+        <node name="lookup2" position="33.00,-12.00" prototype="data.lookup">
+            <port name="key" type="string" value="time"/>
+        </node>
         <node comment="LookUp wybiera kolumne o nazwie Size" name="lookup4" position="3.00,-14.00" prototype="data.lookup">
             <port name="key" type="string" value="size"/>
         </node>
@@ -53,7 +74,19 @@
         <node comment="Create Point outof LOG_OUT use al X cor" name="make_point3" position="3.00,6.00" prototype="corevector.make_point">
             <port name="y" type="float" value="8.0"/>
         </node>
+        <node comment="Create Point outof LOG_OUT use al X cor" name="make_point4" position="23.00,5.00" prototype="corevector.make_point">
+            <port name="y" type="float" value="8.0"/>
+        </node>
+        <node comment="Create Point outof LOG_OUT use al X cor" name="make_point5" position="33.00,5.00" prototype="corevector.make_point">
+            <port name="y" type="float" value="8.0"/>
+        </node>
         <node comment="wybież najwiekszą wartość ( MAX )" name="max1" position="-1.00,5.00" prototype="math.max"/>
+        <node name="multiply10" position="33.00,-6.00" prototype="math.multiply">
+            <port name="value2" type="float" value="183.28997802734375"/>
+        </node>
+        <node comment="monozy prze -1 ( INVERT )" name="multiply11" position="34.00,-3.00" prototype="math.multiply">
+            <port name="value2" type="float" value="-1.0"/>
+        </node>
         <node name="multiply3" position="3.00,-6.00" prototype="math.multiply">
             <port name="value2" type="float" value="183.28997802734375"/>
         </node>
@@ -63,9 +96,24 @@
         <node comment="monozy przez 0.5" name="multiply5" position="4.00,-4.00" prototype="math.multiply">
             <port name="value2" type="float" value="0.5"/>
         </node>
-        <node name="rect1" position="4.00,18.00" prototype="corevector.rect">
-            <port name="width" type="float" value="1000.0"/>
-            <port name="height" type="float" value="1000.0"/>
+        <node name="multiply6" position="23.00,-6.00" prototype="math.multiply">
+            <port name="value2" type="float" value="183.28997802734375"/>
+        </node>
+        <node comment="monozy prze -1 ( INVERT )" name="multiply7" position="24.00,-3.00" prototype="math.multiply">
+            <port name="value2" type="float" value="-1.0"/>
+        </node>
+        <node comment="monozy przez 0.5" name="multiply8" position="24.00,-4.00" prototype="math.multiply">
+            <port name="value2" type="float" value="0.5"/>
+        </node>
+        <node comment="monozy przez 0.5" name="multiply9" position="34.00,-4.00" prototype="math.multiply">
+            <port name="value2" type="float" value="0.5"/>
+        </node>
+        <node name="number1" position="37.00,-10.00" prototype="math.number">
+            <port name="value" type="float" value="-267.0"/>
+        </node>
+        <node name="quad_curve1" position="28.00,11.00" prototype="corevector.quad_curve">
+            <port name="t" type="float" value="66.0"/>
+            <port name="distance" type="float" value="877.0"/>
         </node>
         <node name="textpath1" position="11.00,6.00" prototype="corevector.textpath">
             <port name="font_name" type="string" value="Ubuntu Bold"/>
@@ -98,7 +146,6 @@
         <conn input="OUT_LOG_POINT.shape" output="make_point3"/>
         <conn input="IN_S_S.shape" output="distinct5"/>
         <conn input="integer1.value" output="IN_S_S"/>
-        <conn input="combine3.list3" output="OUT_S_S"/>
         <conn input="OUT_S_S.shape" output="translate1"/>
         <conn input="translate1.shape" output="textpath1"/>
         <conn input="multiply3.value2" output="LOG_MULTI"/>
@@ -109,7 +156,39 @@
         <conn input="OUT_S_S1.shape" output="translate1"/>
         <conn input="OFSET_Y1.shape" output="abs4"/>
         <conn input="translate1.translate" output="make_point3"/>
-        <conn input="combine3.list2" output="colorize1"/>
-        <conn input="colorize1.shape" output="rect1"/>
+        <conn input="multiply6.value1" output="log2"/>
+        <conn input="multiply7.value1" output="multiply8"/>
+        <conn input="multiply8.value1" output="multiply6"/>
+        <conn input="add2.value2" output="first3"/>
+        <conn input="add2.value1" output="multiply6"/>
+        <conn input="first3.list" output="multiply7"/>
+        <conn input="log2.value" output="LOG_IN1"/>
+        <conn input="make_point4.x" output="LOG_OUT1"/>
+        <conn input="LOG_OUT1.shape" output="add2"/>
+        <conn input="make_point4.y" output="OFSET_Y2"/>
+        <conn input="OFSET_Y2.shape" output="abs5"/>
+        <conn input="OUT_LOG_POINT2.shape" output="make_point4"/>
+        <conn input="LOG_IN1.shape" output="lookup4"/>
+        <conn input="multiply6.value2" output="LOG_MULTI"/>
+        <conn input="combine3.list2" output="OUT_S_S"/>
+        <conn input="multiply10.value1" output="log3"/>
+        <conn input="multiply11.value1" output="multiply9"/>
+        <conn input="multiply9.value1" output="multiply10"/>
+        <conn input="add3.value2" output="first4"/>
+        <conn input="add3.value1" output="multiply10"/>
+        <conn input="first4.list" output="multiply11"/>
+        <conn input="log3.value" output="LOG_IN2"/>
+        <conn input="make_point5.x" output="LOG_OUT2"/>
+        <conn input="LOG_OUT2.shape" output="add3"/>
+        <conn input="make_point5.y" output="OFSET_Y3"/>
+        <conn input="OFSET_Y3.shape" output="abs6"/>
+        <conn input="OUT_LOG_POINT3.shape" output="make_point5"/>
+        <conn input="multiply10.value2" output="LOG_MULTI1"/>
+        <conn input="LOG_IN2.shape" output="lookup2"/>
+        <conn input="lookup2.list" output="IMPORT_CSV"/>
+        <conn input="LOG_MULTI1.shape" output="number1"/>
+        <conn input="quad_curve1.point1" output="OUT_LOG_POINT2"/>
+        <conn input="quad_curve1.point2" output="OUT_LOG_POINT3"/>
+        <conn input="colorize1.shape" output="quad_curve1"/>
     </node>
 </ndbx>
